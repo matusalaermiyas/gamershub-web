@@ -1,7 +1,10 @@
 import Competitions from "./Competitions/Competitions";
 import Home from "./Home/Home";
+import Clans from "./Clans/Clans";
+import Streamers from "./Streamers/Streamers";
+import Players from "./Players/Players";
 
-import { createBrowserRouter, Route, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
@@ -11,6 +14,18 @@ const router = createBrowserRouter([
   {
     path: "/competitions",
     element: <Competitions />,
+  },
+  {
+    path: "/clans",
+    element: <Clans />,
+  },
+  {
+    path: "/streamers",
+    element: <Streamers />,
+  },
+  {
+    path: "/players",
+    element: <Players />,
   },
 ]);
 
