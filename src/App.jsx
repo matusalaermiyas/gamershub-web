@@ -1,4 +1,4 @@
-import Competitions from "./Competitions/Competitions";
+import Competitions from "./Tournaments/Tournaments";
 import Home from "./Home/Home";
 import Clans from "./Clans/Clans";
 import Streamers from "./Streamers/Streamers";
@@ -12,7 +12,7 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/competitions",
+    path: "/tournaments",
     element: <Competitions />,
   },
   {
