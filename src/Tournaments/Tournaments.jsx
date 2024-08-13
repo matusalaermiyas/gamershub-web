@@ -3,8 +3,8 @@ import Navbar from "../Navbar/Navbar";
 
 function Competitions() {
   return (
-    <div className="w-screen h-screen text-white font-custom bg-light-dark">
-      <div className="w-screen h-screen pt-10 px-52 flex flex-col">
+    <div className="w-screen max-h-full text-white font-custom bg-light-dark">
+      <div className="w-screen pt-10 px-52 flex flex-col bg-light-dark ">
         <Navbar />
 
         <div className="mt-10"></div>
