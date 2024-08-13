@@ -4,9 +4,17 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        custom: ["Inter"],
+        custom: ["Poppins"],
+      },
+      colors: {
+        "light-dark": "#06141B",
+        "light-color": "#11212D",
+        "tourney-color": "#031930",
       },
     },
+    // borderRadius: {
+    //   mine: "70px",
+    // },
   },
   plugins: [],
 };
