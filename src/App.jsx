@@ -16,9 +16,14 @@ const router = createBrowserRouter([
     element: <Register />,
   },
   {
-    path: "/tournaments",
-    element: <Competitions />,
+    path: "/view-clans",
+    element: <RegisteredClans />,
   },
+
+  // {
+  //   path: "/tournaments",
+  //   element: <Competitions />,
+  // },
   // {
   //   path: "/clans",
   //   element: <Clans />,
@@ -35,10 +40,6 @@ const router = createBrowserRouter([
   //   path: "/register",
   //   element: <Register />,
   // },
-  {
-    path: "/view-clans",
-    element: <RegisteredClans />,
-  },
 ]);
 
 function App() {
