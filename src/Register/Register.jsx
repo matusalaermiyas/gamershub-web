@@ -30,7 +30,7 @@ function Register() {
     };
 
     axios
-      .post("http://192.168.101.27:9090/register", formBody)
+      .post("http://pmec2024.onrender.com/register", formBody)
       .then((res) => {
         toast.success("Registered successfully");
 
@@ -46,7 +46,7 @@ function Register() {
 
   const handleBlur = async (memberToValidate, event) => {
     try {
-      const res = await axios.post("http://192.168.101.27:9090/validate", {
+      const res = await axios.post("http://pmec2024.onrender.com/validate", {
         memberId: event.target.value,
       });
 

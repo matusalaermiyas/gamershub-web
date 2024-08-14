@@ -9,7 +9,7 @@ function RegisteredClans() {
     const fetchRegisteredClans = async () => {
       try {
         const res = await axios.get(
-          "http://192.168.101.27:9090/registered-users"
+          "http://pmec2024.onrender.com/registered-users"
         );
 
         console.log(res);
